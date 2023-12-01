@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: [
             "localhost",
-            
+            "https://digitalhippo.onrender.com/"
         ]
     }
 }
