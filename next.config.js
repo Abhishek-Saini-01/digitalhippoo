@@ -1,9 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: [
-            "localhost",
-            "https://digitalhippo.onrender.com/"
+        remotePatterns: [
+           { 
+                protocol: "https",
+                hostname: "digitalhippo.onrender.com",
+           },
+           { 
+                protocol: "http",
+                hostname: "localhost",
+           }
         ]
     }
 }
